@@ -3,14 +3,16 @@ name = "into-jsvalue-derive"
 version = "0.1.0"
 edition = "2021"
 authors = ["Saman Kittani <samankittani@gmail.com"]
+
 license = "MIT"
 repository = "https://github.com/samankittani/into-jsvalue-derive"
 description = "derive into-jsvalue for enum return values in async wasm_bindgen functions"
+
 readme = "README.md"
 keywords = ["wasm", "wasm_bindgen", "jsvalue", "wasm_bindgen_futures"] 
+
 [lib]
 proc-macro = true
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 proc-macro2 = "1.0.86"
