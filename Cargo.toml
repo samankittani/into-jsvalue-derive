@@ -1,0 +1,5 @@
+[workspace]
+
+members = [
+    "crates/into-jsvalue-derive", "crates/into-jsvalue-test",
+]
