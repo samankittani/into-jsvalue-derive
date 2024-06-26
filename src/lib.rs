@@ -2,6 +2,7 @@ use proc_macro::TokenStream;
 use quote::quote;
 use syn::{parse_macro_input, DeriveInput};
 
+/// A simple derive macro to implement From<T> for JsValue.
 #[proc_macro_derive(IntoJsValue)]
 pub fn into_jsvalue_derive(input: TokenStream) -> TokenStream {
     let input = parse_macro_input!(input as DeriveInput);
